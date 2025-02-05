@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandeza Ivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .image-container {
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+
+        .image-container img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .name {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        .word-list {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .word-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .word-list li {
+            font-size: 1.2rem;
+            margin: 5px 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://static.wikia.nocookie.net/dublagem/images/e/e6/El_le%C3%B1ador_hwkd-bclvh.png/revision/latest?cb=20221126130325&path-prefix=pt-br" alt="Grandeza Ivo">
+    </div>
+    <div class="name">Ivo</div>
+    <div class="word-list">
+        <h2>Palavras que terminam com "ivo":</h2>
+        <ul>
+            <li>Ativo</li>
+            <li>Passivo</li>
+            <li>Positivo</li>
+            <li>Negativo</li>
+            <li>Efetivo</li>
+            <li>Furtivo</li>
+            <li>Vivo</li>
+            <li>Expressivo</li>
+            <li>Instintivo</li>
+            <li>Coletivo</li>
+        </ul>
+    </div>
+</body>
+</html>
